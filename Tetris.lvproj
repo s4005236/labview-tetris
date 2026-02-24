@@ -12,7 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="01_Typen" Type="Folder"/>
+		<Item Name="01_Typen" Type="Folder">
+			<Item Name="GameCommand.ctl" Type="VI" URL="../01_Typen/GameCommand.ctl"/>
+		</Item>
 		<Item Name="02_StateMachine" Type="Folder">
 			<Item Name="GameState.vi" Type="VI" URL="../02_StateMachine/GameState.vi"/>
 		</Item>
