@@ -14,9 +14,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="01_Typen" Type="Folder">
 			<Item Name="GameCommand.ctl" Type="VI" URL="../01_Typen/GameCommand.ctl"/>
+			<Item Name="GameState.ctl" Type="VI" URL="../01_Typen/GameState.ctl"/>
 		</Item>
 		<Item Name="02_StateMachine" Type="Folder">
-			<Item Name="GameState.vi" Type="VI" URL="../02_StateMachine/GameState.vi"/>
+			<Item Name="GameStateMachine.vi" Type="VI" URL="../02_StateMachine/GameStateMachine.vi"/>
 		</Item>
 		<Item Name="03_GameLogic" Type="Folder"/>
 		<Item Name="04_IO" Type="Folder"/>
