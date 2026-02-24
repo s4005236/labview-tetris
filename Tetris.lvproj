@@ -12,6 +12,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="01_Typen" Type="Folder"/>
+		<Item Name="02_StateMachine" Type="Folder">
+			<Item Name="GameState.vi" Type="VI" URL="../02_StateMachine/GameState.vi"/>
+		</Item>
+		<Item Name="03_GameLogic" Type="Folder"/>
+		<Item Name="04_IO" Type="Folder"/>
+		<Item Name="05_SubVIs_Common" Type="Folder"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
