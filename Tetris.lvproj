@@ -13,8 +13,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="01_Typen" Type="Folder">
-			<Item Name="GameCommand.ctl" Type="VI" URL="../01_Typen/GameCommand.ctl"/>
-			<Item Name="GameState.ctl" Type="VI" URL="../01_Typen/GameState.ctl"/>
+			<Item Name="GameCommandTypeDef.ctl" Type="VI" URL="../01_Typen/GameCommandTypeDef.ctl"/>
+			<Item Name="GameTileInformationTypeDef.ctl" Type="VI" URL="../02_StateMachine/GameTileInformationTypeDef.ctl"/>
 		</Item>
 		<Item Name="02_StateMachine" Type="Folder">
 			<Item Name="GameStateMachine.vi" Type="VI" URL="../02_StateMachine/GameStateMachine.vi"/>
