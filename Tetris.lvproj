@@ -14,12 +14,15 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="01_Typen" Type="Folder">
 			<Item Name="GameCommandTypeDef.ctl" Type="VI" URL="../01_Typen/GameCommandTypeDef.ctl"/>
-			<Item Name="GameTileInformationTypeDef.ctl" Type="VI" URL="../02_StateMachine/GameTileInformationTypeDef.ctl"/>
+			<Item Name="GameTetrominoInformationTypeDef.ctl" Type="VI" URL="../02_StateMachine/GameTetrominoInformationTypeDef.ctl"/>
 		</Item>
 		<Item Name="02_StateMachine" Type="Folder">
 			<Item Name="GameStateMachine.vi" Type="VI" URL="../02_StateMachine/GameStateMachine.vi"/>
 		</Item>
-		<Item Name="03_GameLogic" Type="Folder"/>
+		<Item Name="03_GameLogic" Type="Folder">
+			<Item Name="TileCreation.vi" Type="VI" URL="../03_GameLogic/TileCreation.vi"/>
+			<Item Name="TileStateChecker.vi" Type="VI" URL="../03_GameLogic/TileStateChecker.vi"/>
+		</Item>
 		<Item Name="04_IO" Type="Folder"/>
 		<Item Name="05_SubVIs_Common" Type="Folder"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
