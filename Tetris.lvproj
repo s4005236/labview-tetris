@@ -20,6 +20,7 @@
 			<Item Name="GameStateMachine.vi" Type="VI" URL="../02_StateMachine/GameStateMachine.vi"/>
 		</Item>
 		<Item Name="03_GameLogic" Type="Folder">
+			<Item Name="PlayfieldStatusCheck.vi" Type="VI" URL="../03_GameLogic/PlayfieldStatusCheck.vi"/>
 			<Item Name="PlayfieldUpdate.vi" Type="VI" URL="../03_GameLogic/PlayfieldUpdate.vi"/>
 			<Item Name="TetroInfoCreation.vi" Type="VI" URL="../03_GameLogic/TetroInfoCreation.vi"/>
 			<Item Name="TetroInfoModulation.vi" Type="VI" URL="../03_GameLogic/TetroInfoModulation.vi"/>
