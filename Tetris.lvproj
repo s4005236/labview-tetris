@@ -26,8 +26,9 @@
 			<Item Name="TetroInfoModulation.vi" Type="VI" URL="../03_GameLogic/TetroInfoModulation.vi"/>
 			<Item Name="TetroStateChecker.vi" Type="VI" URL="../03_GameLogic/TetroStateChecker.vi"/>
 		</Item>
-		<Item Name="04_IO" Type="Folder"/>
-		<Item Name="05_SubVIs_Common" Type="Folder"/>
+		<Item Name="04_IO" Type="Folder">
+			<Item Name="placeholder_vi.vi" Type="VI" URL="../04_IO/placeholder_vi.vi"/>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
