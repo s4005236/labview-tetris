@@ -14,7 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="01_Typen" Type="Folder">
 			<Item Name="GameCommandTypeDef.ctl" Type="VI" URL="../01_Typen/GameCommandTypeDef.ctl"/>
-			<Item Name="GameTetrominoInformationTypeDef.ctl" Type="VI" URL="../02_StateMachine/GameTetrominoInformationTypeDef.ctl"/>
+			<Item Name="GameTetrominoInformationTypeDef.ctl" Type="VI" URL="../01_Typen/GameTetrominoInformationTypeDef.ctl"/>
 		</Item>
 		<Item Name="02_StateMachine" Type="Folder">
 			<Item Name="GameStateMachine.vi" Type="VI" URL="../02_StateMachine/GameStateMachine.vi"/>
