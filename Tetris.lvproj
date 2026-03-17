@@ -29,6 +29,7 @@
 		<Item Name="04_IO" Type="Folder">
 			<Item Name="hardware_init.vi" Type="VI" URL="../04_IO/hardware_init.vi"/>
 			<Item Name="placeholder_vi.vi" Type="VI" URL="../04_IO/placeholder_vi.vi"/>
+			<Item Name="spi_init.vi" Type="VI" URL="../04_IO/spi_init.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
