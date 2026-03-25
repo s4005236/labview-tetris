@@ -27,7 +27,9 @@
 			<Item Name="TetroStateChecker.vi" Type="VI" URL="../03_GameLogic/TetroStateChecker.vi"/>
 		</Item>
 		<Item Name="04_IO" Type="Folder">
+			<Item Name="hardware_init.vi" Type="VI" URL="../04_IO/hardware_init.vi"/>
 			<Item Name="IOApi.vi" Type="VI" URL="../04_IO/IOApi.vi"/>
+			<Item Name="spi_init.vi" Type="VI" URL="../04_IO/spi_init.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
